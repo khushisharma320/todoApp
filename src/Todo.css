@@ -1,0 +1,82 @@
+body{
+    background-color: rgb(190, 145, 231);
+
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    margin-bottom: 150px;
+  
+}
+
+.todo{
+    background-color: white;
+    min-height: 400px;
+    height: fit-content;
+    padding-bottom: 10px;
+    min-width: 300px;
+    width: fit-content;
+    border-radius: 10px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+
+
+}
+
+.todo h3{
+    background-color: purple;
+    text-align: center;
+    height: 35px;
+    padding-top: 4px;
+    color: beige;
+    font-size: larger;
+}
+
+.input{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.input input{
+    height: 25px;
+    border: 1px solid purple;
+    border-radius: 5px;
+}
+ 
+
+.input Button{
+    background-color: purple;
+    height: 30px;
+}
+
+.input Button:hover{
+    background-color: white;
+    color: purple;
+}
+
+.items{
+    display: flex;
+    align-items: center;
+    margin-left: 23px;
+    line-height: 0.1px;
+}
+
+.deleteBtn{
+    background-color: white;
+    height: 30px;
+    border: none;
+    color: red;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    
+}
+
+
+.items p{
+    margin-left: 20px;
+    color: purple;
+}
+
